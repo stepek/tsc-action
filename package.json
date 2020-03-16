@@ -1,0 +1,29 @@
+{
+  "name": "tsc-action",
+  "version": "1.0.0",
+  "description": "This is a GitHub Action that runs ESLint for `.js`, `.jsx`, and `.tsx` files using your `.eslintrc` rules. It's free to run and it'll annotate the diffs of your pull requests with lint errors and warnings.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write \"lib/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepek/tsc-action.git"
+  },
+  "author": "\"Kamil Stepek Stepczuk <kamil.stepczuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stepek/tsc-action/issues"
+  },
+  "homepage": "https://github.com/stepek/tsc-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "fs": "0.0.1-security",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}

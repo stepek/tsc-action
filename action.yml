@@ -1,0 +1,5 @@
+name: "TSC actions"
+description: "Type checking TypeScript code"
+runs:
+  using: node12
+  main: lib/index.js
