@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/stepek/tsc-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.9.1",
     "fs": "0.0.1-security",
     "prettier": "^1.19.1",
     "typescript": "^3.8.3"
